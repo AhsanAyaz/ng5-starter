@@ -1,0 +1,20 @@
+.header{
+  background: #D91338;
+  .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    list-style: none;
+    li {
+      color: white;
+      text-decoration: none;
+      padding: 4px 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      &:hover {
+        color: #acacac;
+      }
+    }
+  }
+}

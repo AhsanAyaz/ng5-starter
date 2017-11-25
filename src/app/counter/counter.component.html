@@ -1,0 +1,9 @@
+<div class="heading">
+  Counter App
+</div>
+<div class="counter-wrapper">
+  <button (click)="decrement()"> - </button>
+  <div> {{counterValue}} </div>
+  <button (click)="increment()"> + </button>
+  Steps<input type="number" [(ngModel)]="countSteps">
+</div>

@@ -1,0 +1,15 @@
+.heading{
+  text-align: center;
+  font-size: 22px;
+}
+.counter-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(247, 115, 92);
+  color: white;
+}
