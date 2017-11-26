@@ -6,6 +6,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "github-deploy": "npm run build:github && npm run deploy:github",
+    "build:github": "ng build --prod --base-href=\"https://ahsanayaz.github.io/ng5-starter/\"",
+    "deploy:github": "angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
