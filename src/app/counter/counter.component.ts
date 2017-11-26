@@ -13,7 +13,7 @@ export class CounterComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(parameters => {
-      // console.log(parameters);
+      console.log(parameters);
     });
   }
 
